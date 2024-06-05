@@ -7,7 +7,8 @@ function App() {
   return (
     <>
     <Container>
-      <Heading>
+      <Heading
+      color={"red"}>
         TodoApp
       </Heading>
       <HStack
