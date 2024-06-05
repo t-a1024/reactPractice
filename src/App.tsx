@@ -34,7 +34,8 @@ function App() {
           todos.length === 0 ?
             <Text>No todo.</Text>
             :
-            <List>
+            <List
+            color={"aqua"}>
               {todos.map((todo, i) => (
                 <ListItem key={i}>{todo}</ListItem>
               ))}
