@@ -18,8 +18,8 @@ function App() {
         onChange={(e)=>setTodoName(e.target.value)}
         type="Text"
         placeholder="enter your todo"
-        borderTopRadius={0}
-        borderBottomRadius={0}/>
+        borderTopRightRadius={0}
+        borderBottomRightRadius={0}/>
         <Button
         borderTopLeftRadius={0}
         borderBottomLeftRadius={0}
